@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   resources :contacts
   resources :welcome
   root 'welcome#index'
